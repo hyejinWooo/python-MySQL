@@ -3,4 +3,6 @@ def solution(array, height):
     for i in array:
         if i > height:
             answer = answer+1
+        else:
+            pass
     return answer
